@@ -1,0 +1,23 @@
+{
+  "name": "deno",
+  "version": "1.0.0",
+  "description": "\"Introduction to deno\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chukwutem-emi/Deno.git"
+  },
+  "author": "Chukwutem Stephen Emi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chukwutem-emi/Deno/issues"
+  },
+  "homepage": "https://github.com/chukwutem-emi/Deno#readme",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1"
+  }
+}

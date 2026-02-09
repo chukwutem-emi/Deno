@@ -1,4 +1,4 @@
-import {Application} from "https://deno.land/x/oak@v17.2.0/mod.ts"
+import {Application} from "oak/mod.ts"
 
 
 const app = new Application();
