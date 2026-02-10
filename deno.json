@@ -1,6 +1,11 @@
 {
     "imports": {
-        "oak/": "https://deno.land/x/oak@v17.2.0/"
+        "oak/": "https://deno.land/x/oak@v17.2.0/",
+        "dotenv/": "https://deno.land/std@0.224.0/dotenv/",
+        "mongo/": "https://deno.land/x/mongo@v0.34.0/"
+    },
+    "tasks": {
+        "dev": "deno run --allow-env --allow-net --allow-read --allow-write deno/app.ts"
     },
     "nodeModulesDir": "auto"
 }
